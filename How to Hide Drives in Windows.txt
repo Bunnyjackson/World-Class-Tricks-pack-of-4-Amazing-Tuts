@@ -1,0 +1,23 @@
+﻿How To Hide Drives in Windows?★
+01.Open the Run box by (Winkey + R) or Start->Run
+02.Type “cmd” in the Run box. (Without quotes)
+03.The command prompt will be open. Then type “diskpart” and hit Enter. (Without quotes)
+04.Then type “list volume”. (Without quotes) Now, it will display all the disk partitions of your PC.
+05.Now select the volume you want to hide by typing "select volume n"(n is the volume number against the drive you want to hide).
+e.g.->select volume 2.
+06.Then type “remove letter X” (X is a drive letter) and hit Enter.
+e.g.->remove letter D
+07.That’s it, you have done, your partition was hidden. Then just restart your system once to better performance.
+
+★How to unhide the drive again?★
+OK. The drive was hidden. Then all of you ask me that how to get my partition back? This is similar to the hide process.
+Just follow the steps…
+01.Open the Run box by (Winkey + R) or Start->Run
+02.Type “cmd” in the Run box. (Without quotes)
+03.The command prompt will be open. Then type “diskpart” and hit Enter. (Without quotes)
+04.Then type “list volume”. (Without quotes) Now, it will display all the disk partitions of your PC.
+05. Now select the volume you want to hide by typing "select volume n"(n is the volume number against the drive you want to hide).
+e.g.->select volume 2.
+06.Then type “assign letter X” (X is a drive letter) hit Enter.
+e.g.-> assign letter D
+07.That’s it, you have done, your partition will be back. Then just restart your system once to better performance
